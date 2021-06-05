@@ -1,0 +1,234 @@
+#board {
+	position: relative;
+	width: 1350px;
+	height: 700px;
+	margin-bottom: 5px;
+}
+
+
+.board4p {
+	background-image: url(img/wrestling-board.png);
+	left: 15%
+}
+
+
+
+.circle {
+    position: absolute;
+    border: 2px dotted #000000;
+    border-radius: 50%;
+}
+
+.circle:nth-child(1) {
+    left: 35%;
+    top: 0px;
+    
+}
+
+.circle:nth-child(2) {
+    left: 35%;
+    bottom: 0px;
+    
+}
+
+.circle:nth-child(3) {
+    left: 5%;
+    top: 30%;
+    
+}
+
+.circle:nth-child(4) {
+    right: 0px;
+    top: 30%;
+    
+}
+
+.circle:nth-child(5) {
+    transform:  translateX(0px);
+}
+
+
+
+
+.slot_action_1 {
+	top: 3px;
+	left: 219px;
+	
+}
+
+.slot_action_2 {
+	top: 3px;
+	left: 404px;
+	
+}
+
+.slot_action_3 {
+	top: 3px;
+	left: 587px;
+	
+}
+
+.slot_action_4 {
+	top: 3px;
+	left: 770px;
+	
+}
+
+.slot_action_5 {
+	top: 3px;
+	left: 955px;
+	
+}
+
+.slot_action_6 {
+	top: 235px;
+	left: 219px;
+	
+}
+
+.slot_action_7 {
+	top: 235px;
+	left: 404px;
+	
+}
+
+.slot_action_8 {
+	top: 235px;
+	left: 587px;
+	
+}
+
+.slot_action_9 {
+	top: 235px;
+	left: 770px;
+	
+}
+
+.slot_action_10 {
+	top: 235px;
+	left: 955px;
+	
+}
+
+.slot_action_11 {
+	top: 469px;
+	left: 219px;
+	
+}
+
+.slot_action_12 {
+	top: 469px;
+	left: 404px;
+	
+}
+
+.slot_action_13 {
+	top: 469px;
+	left: 587px;
+	
+}
+
+.slot_action_14 {
+	top: 469px;
+	left: 770px;
+	
+}
+
+.slot_action_15 {
+	top: 469px;
+	left: 955px;
+	
+}
+
+
+
+
+.slot_action {
+	position: absolute;
+	border-radius: 1px;
+	border-style: dotted;
+	width: 160px;
+	height: 224px;
+	text-align: center;
+	vertical-align: middle;
+	text-shadow: 2px 2px 5px red;
+}
+
+
+
+/** Table layout **/
+
+#playertables {
+    position: relative;
+    width: 2000px;
+    height: 800px;
+}
+
+.playertablecard_1 {
+       
+    display: inline-block;
+    position: relative;
+    margin-top: 2px;
+    width: 160px;
+    height: 224px;
+    
+}
+
+.playertablecard_2 {
+       
+    display: inline-block;
+    position: relative;
+    margin-top: 2px;
+    width: 160px;
+    height: 224px;
+    
+}
+
+.playertablecard_3 {
+       
+    display: inline-block;
+    position: relative;
+    margin-top: 2px;
+    width: 160px;
+    height: 224px;
+    
+}
+
+.playertablecard_4 {
+       
+    display: inline-block;
+    position: relative;
+    margin-top: 2px;
+    width: 160px;
+    height: 224px;
+    
+}
+
+
+
+.cardontable {
+    position: absolute;
+    width: 160px;
+    height: 224px;
+    background-image: url('img/Gen1Basic.jpg'); 
+}
+
+
+
+
+
+
+
+
+.playertablename {
+    font-weight: bold;
+}
+
+.playertable {
+    text-align: center;
+    width: 720px;
+    height: 260px;
+}
+
+
+
